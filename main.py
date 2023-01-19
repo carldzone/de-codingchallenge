@@ -90,9 +90,10 @@ def main(params):
             
             browser.back()
         
-        browser.find_element(By.XPATH, f'/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a[{pg_counter}]')
-        if (pg_counter) == 40:
-            pg_counter == 0
+        browser.find_element(By.XPATH, f'/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a[{pg_counter}]').click()
+        time.sleep(10)
+        if pg_counter == 40:
+            pg_counter == 1
             pg_row == 40
     
     browser.quit()

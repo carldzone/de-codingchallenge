@@ -34,12 +34,9 @@ def save_csv_to_extraction(workdir, dict_var, last_name, license_type):
     
 
 def check_max_pages(browser):
-    # Not applicable for less than 40 a tags
     try:
-        
         pg_check_count = 0
         pg_check = True
-        # import pdb; pdb.set_trace()
         while pg_check:
             last_item = browser.find_elements(By.XPATH, '/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a')[-1]
             if last_item.text == '...':
