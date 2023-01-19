@@ -125,3 +125,194 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674127222525	geckodriver	INFO	Listening on 127.0.0.1:56425
+1674127222527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34835" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelOql9R"
+*** You are running in headless mode.
+1674127222782	Marionette	INFO	Marionette enabled
+1674127222785	Marionette	INFO	Listening on port 45715
+WebDriver BiDi listening on ws://127.0.0.1:34835
+Read port: 45715
+1674127222939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelOql9R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34835/devtools/browser/7cbab96d-bf1c-4952-bf3a-41f1aa42aa49
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674127319611	geckodriver	INFO	Listening on 127.0.0.1:49545
+1674127319613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemQX4YV"
+*** You are running in headless mode.
+1674127319869	Marionette	INFO	Marionette enabled
+1674127319873	Marionette	INFO	Listening on port 46291
+WebDriver BiDi listening on ws://127.0.0.1:48335
+Read port: 46291
+1674127320053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemQX4YV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48335/devtools/browser/28afaf50-3423-4688-aade-565634b31462
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674127495991	geckodriver	INFO	Listening on 127.0.0.1:48723
+1674127495994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenmKam5"
+*** You are running in headless mode.
+1674127496261	Marionette	INFO	Marionette enabled
+1674127496265	Marionette	INFO	Listening on port 45759
+Read port: 45759
+WebDriver BiDi listening on ws://127.0.0.1:60453
+1674127496318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenmKam5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60453/devtools/browser/33c0ab94-60a6-4ee5-9db0-a9f776ffc70a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674128113477	geckodriver	INFO	Listening on 127.0.0.1:43553
+1674128113480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelRrCDt"
+*** You are running in headless mode.
+1674128113742	Marionette	INFO	Marionette enabled
+1674128113746	Marionette	INFO	Listening on port 32857
+Read port: 32857
+WebDriver BiDi listening on ws://127.0.0.1:56809
+1674128113829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelRrCDt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56809/devtools/browser/77068342-a881-479e-8ff3-7b4192378620
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674128894287	geckodriver	INFO	Listening on 127.0.0.1:58371
+1674128894290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewRlEg7"
+*** You are running in headless mode.
+1674128894557	Marionette	INFO	Marionette enabled
+1674128894561	Marionette	INFO	Listening on port 33677
+Read port: 33677
+WebDriver BiDi listening on ws://127.0.0.1:45615
+1674128894615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewRlEg7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45615/devtools/browser/738bfcd5-a637-48d6-82ee-16069c05952f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674129067567	geckodriver	INFO	Listening on 127.0.0.1:51861
+1674129067570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRqIFQx"
+*** You are running in headless mode.
+1674129067832	Marionette	INFO	Marionette enabled
+1674129067836	Marionette	INFO	Listening on port 42333
+Read port: 42333
+WebDriver BiDi listening on ws://127.0.0.1:59741
+1674129067928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRqIFQx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59741/devtools/browser/c1642536-691c-40ea-8729-cc5960ea3f0e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674129441086	geckodriver	INFO	Listening on 127.0.0.1:54711
+1674129441088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9EGQjx"
+*** You are running in headless mode.
+1674129441356	Marionette	INFO	Marionette enabled
+1674129441360	Marionette	INFO	Listening on port 46137
+Read port: 46137
+WebDriver BiDi listening on ws://127.0.0.1:47021
+1674129441417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9EGQjx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47021/devtools/browser/bdcc1dd3-db12-4fc3-9626-ca2d11eefef3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674130846560	geckodriver	INFO	Listening on 127.0.0.1:50919
+1674130846574	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47625" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSZZBgV"
+*** You are running in headless mode.
+1674130846848	Marionette	INFO	Marionette enabled
+1674130846851	Marionette	INFO	Listening on port 45855
+Read port: 45855
+WebDriver BiDi listening on ws://127.0.0.1:47625
+1674130846908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSZZBgV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47625/devtools/browser/1c5a8b5c-e51c-4283-96fb-df350a6a49f3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1674130930647	geckodriver	INFO	Listening on 127.0.0.1:37889
+1674130930650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8wzS24"
+*** You are running in headless mode.
+1674130930919	Marionette	INFO	Marionette enabled
+1674130930922	Marionette	INFO	Listening on port 46501
+Read port: 46501
+WebDriver BiDi listening on ws://127.0.0.1:49253
+1674130930978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8wzS24/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49253/devtools/browser/7d88385d-5fc9-4af3-8640-1f5ec8117c6f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1674131434026	geckodriver	INFO	Listening on 127.0.0.1:52419
+1674131434028	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUF1TEx"
+*** You are running in headless mode.
+1674131434289	Marionette	INFO	Marionette enabled
+1674131434292	Marionette	INFO	Listening on port 35545
+Read port: 35545
+WebDriver BiDi listening on ws://127.0.0.1:49117
+1674131434380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUF1TEx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49117/devtools/browser/5dfa078b-45f0-489a-b2aa-47abfa3e28a3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."

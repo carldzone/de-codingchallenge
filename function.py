@@ -54,3 +54,11 @@ def check_max_pages(browser):
         browser.back()
     
     return int(pg_nb)
+
+
+def check_next_page(browser):
+    try:
+        browser.find_element(By.XPATH, f'/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/span/following-sibling::a').click()
+        return '\n\tOpening next page\n'
+    except NoSuchElementException:
+        return '\tEnd of page checking\n'
