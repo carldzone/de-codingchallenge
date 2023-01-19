@@ -39,3 +39,8 @@ tar -xvzf geckodriver*
 chmod +x geckodriver
 sudo mv geckodriver /usr/local/bin/
 ```
+
+## To run sample test:
+```
+python main.py --ln l
+```
