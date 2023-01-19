@@ -1,6 +1,5 @@
 /decc-venv
 .env
 **/__pycache__/
-extraction/
 geckdriver.log
 geckodriver-v0.31.0-linux64.tar.gz
