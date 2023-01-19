@@ -39,47 +39,61 @@ def main(params):
     browser.find_element(By.XPATH, '//*[@id="sch_button"]').click()
     time.sleep(5)
     
-    # Get every row information from Result and getting each item's LINK
-    links = [elmt.get_attribute('href') for elmt in browser.find_elements(By.XPATH, '//*[@id="datagrid_results"]/tbody/tr/td[1]/table/tbody/tr/td[1]/a')]
+    # Checking the maximum pages to extract data
+    pg_nb = check_max_pages(browser)
     
-    print(f'\tTotal number of rows to check: {len(links)}\n')
-    for i in range(len(links)):
-        link = links[i]
+    print(f'\n\tTotal number of pages to check: {str(pg_nb)}\n')
+    pg_counter = 0
+    pg_row = 0
+    for pg in range(pg_nb):
+        pg_counter += 1
+        print(f'\n\tChecking data from page {pg_counter + pg_row}\n')
+        # Get every row information from Result and getting each item's LINK
+        links = [elmt.get_attribute('href') for elmt in browser.find_elements(By.XPATH, '//*[@id="datagrid_results"]/tbody/tr/td[1]/table/tbody/tr/td[1]/a')]
         
-        browser.get(link)
-        
-        last_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[8]').text
-        first_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[4]').text
-        middle_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[6]').text
-        license_nb = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[2]/td[2]').text
-        license_type = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[2]/td[4]').text
-        status = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[3]/td[2]').text
-        orig_issued_date = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[3]/td[4]').text
-        expiry = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[3]/td[6]').text
-        renewed = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[4]/td[6]').text
+        print(f'\tTotal number of rows to check: {len(links)}\n')
+        for i in range(len(links)):
+            link = links[i]
+            
+            browser.get(link)
+            
+            last_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[8]').text
+            first_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[4]').text
+            middle_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[6]').text
+            license_nb = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[2]/td[2]').text
+            license_type = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[2]/td[4]').text
+            status = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[3]/td[2]').text
+            orig_issued_date = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[3]/td[4]').text
+            expiry = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[3]/td[6]').text
+            renewed = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[10]/td/span/table/tbody/tr/td/table/tbody/tr[4]/td[6]').text
 
-        print(last_name)
-        print(first_name)
-        print(middle_name)
-        print(license_nb)
-        print(license_type)
-        print(status)
-        print(orig_issued_date)
-        print(expiry)
-        print(renewed)
-        print(link)
-        print('\n\n')
-        data_content['First Name'].append(first_name)
-        data_content['Middle Name'].append(middle_name)
-        data_content['Last Name'].append(last_name)
-        data_content['License Number'].append(license_nb)
-        data_content['License Type'].append(license_type)
-        data_content['Status'].append(status)
-        data_content['Original Issued Date'].append(orig_issued_date)
-        data_content['Expiry'].append(expiry)
-        data_content['Renewed'].append(renewed)
+            print(last_name)
+            print(first_name)
+            print(middle_name)
+            print(license_nb)
+            print(license_type)
+            print(status)
+            print(orig_issued_date)
+            print(expiry)
+            print(renewed)
+            print(link)
+            print('\n\n')
+            data_content['First Name'].append(first_name)
+            data_content['Middle Name'].append(middle_name)
+            data_content['Last Name'].append(last_name)
+            data_content['License Number'].append(license_nb)
+            data_content['License Type'].append(license_type)
+            data_content['Status'].append(status)
+            data_content['Original Issued Date'].append(orig_issued_date)
+            data_content['Expiry'].append(expiry)
+            data_content['Renewed'].append(renewed)
+            
+            browser.back()
         
-        browser.back()
+        browser.find_element(By.XPATH, f'/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a[{pg_counter}]')
+        if (pg_counter) == 40:
+            pg_counter == 0
+            pg_row == 40
     
     browser.quit()
 

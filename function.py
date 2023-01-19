@@ -1,7 +1,9 @@
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import *
 import pandas as pd
 import os
 from pathlib import Path
+import time
 
 
 
@@ -29,3 +31,29 @@ def save_csv_to_extraction(workdir, dict_var, last_name, license_type):
         df = pd.DataFrame(dict_var)
         
         return df.to_csv(f, index=False, header=True)
+    
+
+def check_max_pages(browser):
+    # Not applicable for less than 40 a tags
+    try:
+        
+        pg_check_count = 0
+        pg_check = True
+        # import pdb; pdb.set_trace()
+        while pg_check:
+            last_item = browser.find_elements(By.XPATH, '/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a')[-1]
+            if last_item.text == '...':
+                last_item.click()
+                time.sleep(5)
+                pg_check_count += 1
+            else:
+                pg_nb = last_item.text
+                pg_check = False
+
+    except NoSuchElementException:
+        pg_nb = browser.find_elements(By.XPATH, '/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a')[-1].text
+    
+    for i in range(pg_check_count):
+        browser.back()
+    
+    return int(pg_nb)

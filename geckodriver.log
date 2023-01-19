@@ -1074,3 +1074,112 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1674118104447	geckodriver	INFO	Listening on 127.0.0.1:35833
+1674118104450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuMeJEV"
+*** You are running in headless mode.
+1674118104712	Marionette	INFO	Marionette enabled
+1674118104715	Marionette	INFO	Listening on port 36549
+WebDriver BiDi listening on ws://127.0.0.1:54201
+Read port: 36549
+1674118104791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuMeJEV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54201/devtools/browser/4cd2fcb6-ad2c-40b9-84ec-32cfce813e38
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674118221349	geckodriver	INFO	Listening on 127.0.0.1:41703
+1674118221352	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40401" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileY1Wtfm"
+*** You are running in headless mode.
+1674118221613	Marionette	INFO	Marionette enabled
+1674118221616	Marionette	INFO	Listening on port 35639
+WebDriver BiDi listening on ws://127.0.0.1:40401
+Read port: 35639
+1674118221815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY1Wtfm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40401/devtools/browser/7ebdc111-2d4c-4e9f-934d-6a3ef198d54c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674118408759	geckodriver	INFO	Listening on 127.0.0.1:50353
+1674118408762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9b1ogW"
+*** You are running in headless mode.
+1674118409013	Marionette	INFO	Marionette enabled
+1674118409016	Marionette	INFO	Listening on port 37561
+WebDriver BiDi listening on ws://127.0.0.1:45169
+Read port: 37561
+1674118409198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9b1ogW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45169/devtools/browser/7d8db036-e435-4b2a-8025-fe78a1c0c75e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674118465088	geckodriver	INFO	Listening on 127.0.0.1:59221
+1674118465091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44337" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMZOvjc"
+*** You are running in headless mode.
+1674118465347	Marionette	INFO	Marionette enabled
+1674118465351	Marionette	INFO	Listening on port 38431
+WebDriver BiDi listening on ws://127.0.0.1:44337
+Read port: 38431
+1674118465525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMZOvjc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44337/devtools/browser/0dd51216-9947-4f3a-8a35-7a1ec1c63e49
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674118609665	geckodriver	INFO	Listening on 127.0.0.1:57065
+1674118609667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMkbasE"
+*** You are running in headless mode.
+1674118609933	Marionette	INFO	Marionette enabled
+1674118609936	Marionette	INFO	Listening on port 45965
+Read port: 45965
+WebDriver BiDi listening on ws://127.0.0.1:44745
+1674118610014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMkbasE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44745/devtools/browser/98d98c7e-bfb4-47d6-96d7-6911b85fcade
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+1674118756535	geckodriver	INFO	Listening on 127.0.0.1:59473
+1674118756538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile41HY0s"
+*** You are running in headless mode.
+1674118756799	Marionette	INFO	Marionette enabled
+1674118756802	Marionette	INFO	Listening on port 38865
+WebDriver BiDi listening on ws://127.0.0.1:48739
+Read port: 38865
+1674118756996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile41HY0s/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48739/devtools/browser/e47e129d-2bb6-4939-9b98-96f6218bbb60
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1674119941479	geckodriver	INFO	Listening on 127.0.0.1:46475
+1674119941482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLlHff6"
+*** You are running in headless mode.
+1674119941788	Marionette	INFO	Marionette enabled
+1674119941791	Marionette	INFO	Listening on port 45519
+WebDriver BiDi listening on ws://127.0.0.1:38855
+Read port: 45519
+1674119942004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLlHff6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38855/devtools/browser/13026992-5686-4bc3-b808-52192b4932b7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1674120250252	geckodriver	INFO	Listening on 127.0.0.1:60881
+1674120250256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileivaSU5"
+*** You are running in headless mode.
+1674120250510	Marionette	INFO	Marionette enabled
+1674120250513	Marionette	INFO	Listening on port 37099
+WebDriver BiDi listening on ws://127.0.0.1:51677
+Read port: 37099
+1674120250683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileivaSU5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51677/devtools/browser/bfbdb4f0-0484-4170-8341-19bc36693473
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://idbop.mylicense.com."
