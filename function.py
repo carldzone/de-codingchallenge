@@ -1,4 +1,6 @@
+from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import *
 import pandas as pd
 import os
@@ -62,3 +64,22 @@ def check_next_page(browser):
         return '\n\tOpening next page\n'
     except NoSuchElementException:
         return '\tEnd of page checking\n'
+
+
+def reload_page_extraction(browser, url, link, ln, lt, pg_count):
+    browser.quit()
+    
+    options = Options()
+    options.headless = True
+    browser = webdriver.Firefox(options=options)
+    
+    browser.get(url)
+    input_last_name(browser, ln)
+    input_license_type(browser, lt)
+    browser.find_element(By.XPATH, '//*[@id="sch_button"]').click()
+    time.sleep(5)
+    browser.find_element(By.XPATH, f'/html/body/form/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/table/tbody/tr[42]/td/a[{pg_count + 1}]')
+    time.sleep(5)
+    browser.get(link)
+    
+    return 'Reload geckodriver success.'
