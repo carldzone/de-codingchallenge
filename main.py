@@ -54,8 +54,10 @@ def main(params):
         print(f'\tTotal number of rows to check: {len(links)}\n')
         for i in range(len(links)):
             link = links[i]
-            
-            browser.get(link)
+            try:
+                browser.get(link)
+            except WebDriverException:
+                reload_page_extraction(browser, url, link, ln, lt, pg)
             
             last_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[8]').text
             first_name = browser.find_element(By.XPATH, '//*[@id="TheForm"]/table/tbody/tr[2]/td[2]/table[2]/tbody/tr[4]/td/span/table/tbody/tr/td/table/tbody/tr[1]/td[4]').text
